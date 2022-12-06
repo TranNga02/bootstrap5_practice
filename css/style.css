@@ -106,10 +106,11 @@ body{
     width: 90%;
 }
 
+
 /* blue */
 .blue{
     background-image: url(../images/blue-bird-background.png), url(../images/blue-background.png);
-    background-size: 20%, contain;
+    background-size: 20%, cover;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: -20%;
@@ -139,4 +140,48 @@ body{
 .blue-2-img{
     top: 5%;
     left: -5%;
+}
+
+/* testimonials */
+.testimonials{
+    background-image: url(../images/testimonials-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+.testimonials h5{
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color: #272D4E;
+}
+.testimonials img{
+    width: 100%;
+    display: block;
+}
+.testimonials p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #94A2B3;
+    top: 20%;
+    left: 18%;
+    right: 18%;
+}
+
+/* people */
+.people-content h3{
+    font-weight: 500;
+    font-size: 36px;
+    color: #272D4E;
+}
+.people-content p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #94A2B3;
+}
+.people-content button{
+    font-size: 11px;
+    font-weight: 600;
 }
